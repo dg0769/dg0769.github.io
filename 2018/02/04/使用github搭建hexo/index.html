@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>使用github搭建hexo博客的详细过程 | Hexo</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">使用github搭建hexo博客的详细过程</h1><a id="logo" href="/.">Hexo</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">使用github搭建hexo博客的详细过程</h1><div class="post-meta">Feb 3, 2018</div><div class="post-content"><p>使用github pages服务搭建博客的好处有：</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>使用github搭建hexo | Hexo</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">使用github搭建hexo</h1><a id="logo" href="/.">Hexo</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">使用github搭建hexo</h1><div class="post-meta">Feb 4, 2018</div><div class="post-content"><p>使用github pages服务搭建博客的好处有：</p>
 <ol>
 <li>全是静态文件，访问速度快；</li>
 <li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
@@ -17,9 +17,9 @@
 <p>本文所使用的环境：</p>
 <ul>
 <li>Windows8.1</li>
-<li><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#110;&#111;&#x64;&#x65;&#46;&#x6a;&#115;&#64;&#53;&#46;&#x35;&#46;&#48;">&#110;&#111;&#x64;&#x65;&#46;&#x6a;&#115;&#64;&#53;&#46;&#x35;&#46;&#48;</a></li>
-<li><a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x67;&#x69;&#116;&#64;&#49;&#46;&#57;&#x2e;&#50;">&#x67;&#x69;&#116;&#64;&#49;&#46;&#57;&#x2e;&#50;</a></li>
-<li><a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#x68;&#101;&#x78;&#111;&#64;&#51;&#x2e;&#50;&#46;&#x32;">&#x68;&#101;&#x78;&#111;&#64;&#51;&#x2e;&#50;&#46;&#x32;</a></li>
+<li><a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#110;&#x6f;&#100;&#101;&#46;&#106;&#x73;&#64;&#53;&#46;&#x35;&#x2e;&#48;">&#110;&#x6f;&#100;&#101;&#46;&#106;&#x73;&#64;&#53;&#46;&#x35;&#x2e;&#48;</a></li>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#x67;&#105;&#x74;&#64;&#49;&#46;&#57;&#46;&#50;">&#x67;&#105;&#x74;&#64;&#49;&#46;&#57;&#46;&#50;</a></li>
+<li><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x68;&#x65;&#x78;&#111;&#x40;&#51;&#46;&#x32;&#46;&#50;">&#x68;&#x65;&#x78;&#111;&#x40;&#51;&#46;&#x32;&#46;&#50;</a></li>
 </ul>
 <h1 id="搭建github博客"><a href="#搭建github博客" class="headerlink" title="搭建github博客"></a><a name="t2"></a><a name="搭建github博客" class="reference-link "></a>搭建github博客</h1><h2 id="2-1-创建仓库"><a href="#2-1-创建仓库" class="headerlink" title="2.1.  创建仓库"></a><a name="t3"></a>2.1.  <a name="创建仓库" class="reference-link "></a>创建仓库</h2><p>新建一个名为 <code>你的用户名.github.io</code>的仓库，比如说，如果你的github用户名是test，那么你就新建 <code>test.github.io</code>的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 <a href="http://test.github.io/" target="_blank" rel="noopener">http://test.github.io</a> 了，是不是很方便？</p>
 <p>由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。</p>
@@ -34,7 +34,7 @@
 <p>首先你要注册一个域名，域名注册以前总是推荐去 <code>godaddy</code>，现在觉得其实国内的阿里云也挺不错的，价格也不贵，毕竟是大公司，放心！</p>
 <p>绑定域名分2种情况：带www和不带www的。</p>
 <p>域名配置最常见有2种方式，CNAME和A记录，CNAME填写域名，A记录填写IP，由于不带www方式只能采用A记录，所以必须先ping一下 <code>你的用户名.github.io</code>的IP，然后到你的域名DNS设置页，将A记录指向你ping出来的IP，将CNAME指向 <code>你的用户名.github.io</code>，这样可以保证无论是否添加www都可以访问，如下：</p>
-<p><img src="http://image.liuxianan.com/201608/20160823_191336_238_8683.png" alt=""></p>
+<p><img src="./images/1517675606700.jpg" alt=""></p>
 <p>然后到你的github项目根目录新建一个名为CNAME的文件（无后缀），里面填写你的域名，加不加www看你自己喜好，因为经测试：</p>
 <ul>
 <li>如果你填写的是没有www的，比如 mygit.me，那么无论是访问 <a href="http://www.mygit.me/" target="_blank" rel="noopener">http://www.mygit.me</a> 还是  <a href="http://mygit.me/" target="_blank" rel="noopener">http://mygit.me</a> ，都会自动跳转到 <a href="http://mygit.me/" target="_blank" rel="noopener">http://mygit.me</a></li>
@@ -59,7 +59,7 @@
 </pre>
 
 <p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到 <code>.ssh\id_rsa.pub</code>文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_143914_495_9084.png" alt=""></p>
+<p><img src="./images/1517675606802.jpg" alt=""></p>
 <p>将刚复制的内容粘贴到key那里，title随便填，保存。</p>
 <h2 id="3-1-测试是否成功"><a href="#3-1-测试是否成功" class="headerlink" title="3.1.  测试是否成功"></a><a name="t6"></a>3.1.  <a name="测试是否成功" class="reference-link "></a>测试是否成功</h2><pre class=" language-markup">  `$ ssh -T <git@github.com>    # 注意邮箱地址不用改
 ` 
@@ -103,7 +103,7 @@
   </pre>
 
 <p>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_115922_773_1148.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e9318f3b4.jpg" alt=""></p>
 <pre class=" language-bash">    `$ hexo g
       # 生成
       $ hexo s
@@ -113,11 +113,11 @@
   </pre>
 
 <p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_120700_028_2426.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931a35cc.jpg" alt=""></p>
 <p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到内容，很多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故，因为4000这个端口太常见了，解决端口冲突问题请参考这篇文章：</p>
 <p><a href="http://blog.liuxianan.com/windows-port-bind.html" target="_blank" rel="noopener">http://blog.liuxianan.com/windows-port-bind.html</a></p>
 <p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是这个样子：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_132443_202_6848.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931c883c.jpg" alt=""></p>
 <h2 id="4-6-修改主题"><a href="#4-6-修改主题" class="headerlink" title="4.6.  修改主题"></a><a name="t13"></a>4.6.  <a name="修改主题" class="reference-link "></a>修改主题</h2><p>既然默认主题很丑，那我们别的不做，首先来替换一个好看点的主题。这是 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">官方主题</a>。</p>
 <p>个人比较喜欢的2个主题：<a href="https://github.com/pinggod/hexo-theme-jekyll" target="_blank" rel="noopener">hexo-theme-jekyll</a> 和  <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">hexo-theme-yilia</a>。</p>
 <p>首先下载这个主题：</p>
@@ -141,7 +141,7 @@
   </pre>
 
 <p>下载后的主题都在这里：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_134500_245_0912.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931d482c.jpg" alt=""></p>
 <p>修改 <code>_config.yml</code>中的 <code>theme: landscape</code>改为 <code>theme: yilia</code>，然后重新执行 <code>hexo g</code>来重新生成。</p>
 <p>如果出现一些莫名其妙的问题，可以先执行 <code>hexo clean</code>来清理一下public的内容，然后再来重新生成和发布。</p>
 <h2 id="4-7-上传之前"><a href="#4-7-上传之前" class="headerlink" title="4.7.  上传之前"></a><a name="t14"></a>4.7.  <a name="上传之前" class="reference-link "></a>上传之前</h2><p>在上传代码到github之前，一定要记得先把你以前所有代码下载下来（虽然github有版本管理，但备份一下总是好的），因为从hexo提交代码时会把你以前的所有代码都删掉。</p>
@@ -171,9 +171,9 @@
 
 <p>其它命令不确定，部署这个命令一定要用git bash，否则会提示 <code>Permission denied (publickey).</code></p>
 <p>打开你的git bash，输入 <code>hexo d</code>就会将本次有改动的代码全部提交，没有改动的不会：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_140441_769_5024.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931deace.jpg" alt=""></p>
 <h2 id="4-9-保留CNAME、README-md等文件"><a href="#4-9-保留CNAME、README-md等文件" class="headerlink" title="4.9.  保留CNAME、README.md等文件"></a><a name="t16"></a>4.9.  <a name="保留CNAME、README.md等文件" class="reference-link "></a>保留CNAME、README.md等文件</h2><p>提交之后网页上一看，发现以前其它代码都没了，此时不要慌，一些非md文件可以把他们放到source文件夹下，这里的所有文件都会原样复制（除了md文件）到public目录的：</p>
-<p><img src="http://image.liuxianan.com/201608/20160818_141037_580_8035.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931e8db4.jpg" alt=""></p>
 <p>由于hexo默认会把所有md文件都转换成html，包括README.md，所有需要每次生成之后、上传之前，手动将README.md复制到public目录，并删除README.html。</p>
 <h2 id="4-10-常用hexo命令"><a href="#4-10-常用hexo命令" class="headerlink" title="4.10.  常用hexo命令"></a><a name="t17"></a>4.10.  <a name="常用hexo命令" class="reference-link "></a>常用hexo命令</h2><p>常见命令</p>
 <pre class=" language-markup">        `hexo new "postName" #新建文章 hexo new page "pageName" #新建页面 hexo generate
@@ -201,9 +201,9 @@
       </pre>
 
 <p>hexo会帮我们在 <code>_posts</code>下生成相关md文件：</p>
-<p><img src="http://image.liuxianan.com/201608/20160823_183047_352_1475.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e931f30e0.jpg" alt=""></p>
 <p>我们只需要打开这个文件就可以开始写博客了，默认生成如下内容：</p>
-<p><img src="http://image.liuxianan.com/201608/20160823_183325_470_9306.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e9320a23e.jpg" alt=""></p>
 <p>当然你也可以直接自己新建md文件，用这个命令的好处是帮我们自动生成了时间。</p>
 <p>一般完整格式如下：</p>
 <pre>        `--- title: postName #文章页面上的显示名称，一般是中文 date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
@@ -218,7 +218,7 @@
       </pre>
 
 <p>生成如下：</p>
-<p><img src="http://image.liuxianan.com/201608/20160823_184852_854_6502.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e9321660f.jpg" alt=""></p>
 <p>最终部署时生成： <code>hexo\public\my-second-blog\index.html</code>，但是它不会作为文章出现在博文目录。</p>
 <h3 id="4-12-1-写博客工具"><a href="#4-12-1-写博客工具" class="headerlink" title="4.12.1.  写博客工具"></a><a name="t20"></a>4.12.1.  <a name="写博客工具" class="reference-link "></a>写博客工具</h3><p>那么用什么工具写博客呢？这个我还没去找，以前自己使用editor.md简单弄了个，大家有好用的hexo写博客工具可以推荐个。</p>
 <h3 id="4-12-2-如何让博文列表不显示全部内容"><a href="#4-12-2-如何让博文列表不显示全部内容" class="headerlink" title="4.12.2.  如何让博文列表不显示全部内容"></a><a name="t21"></a>4.12.2.  <a name="如何让博文列表不显示全部内容" class="reference-link "></a>如何让博文列表不显示全部内容</h3><p>默认情况下，生成的博文目录会显示全部的文章内容，如何设置文章摘要的长度呢？</p>
@@ -230,9 +230,9 @@
       </pre>
 
 <p>最终效果：</p>
-<p><img src="http://image.liuxianan.com/201608/20160823_184633_653_1893.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/02/04/5a75e93220f4d.jpg" alt=""></p>
 <h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a><a name="t22"></a><a name="最终效果" class="reference-link "></a>最终效果</h1><p>可以访问我的git博客来查看效果： <a href="http://mygit.me/" target="_blank" rel="noopener">http://mygit.me</a></p>
 <p>不过呢，其实这个博客我只是拿来玩一玩的，没打算真的把它当博客，因为我已经有一个自己的博客了，哈哈！正因如此，本文仅限入门学习，关于hexo搭建个人博客的更高级玩法大家可以另找教程。</p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a><a name="t23"></a><a name="参考" class="reference-link "></a>参考</h1><p><a href="http://www.cnblogs.com/zhcncn/p/4097881.html" target="_blank" rel="noopener">http://www.cnblogs.com/zhcncn/p/4097881.html</a></p>
 <p><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="noopener">http://www.jianshu.com/p/05289a4bc8b2</a></p>
-</div><div class="tags"><a href="/tags/hexo-博客-网站-教程/">hexo,博客,网站,教程</a></div><div class="post-nav"><a class="pre" href="/2018/02/04/使用github搭建hexo/">使用github搭建hexo</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://yoursite.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Zuk联想/" style="font-size: 15px;">Zuk联想</a> <a href="/tags/LG手机/" style="font-size: 15px;">LG手机</a> <a href="/tags/OPPO/" style="font-size: 15px;">OPPO</a> <a href="/tags/Sony索尼/" style="font-size: 15px;">Sony索尼</a> <a href="/tags/HTC手机/" style="font-size: 15px;">HTC手机</a> <a href="/tags/Samsung三星/" style="font-size: 15px;">Samsung三星</a> <a href="/tags/ZET中兴/" style="font-size: 15px;">ZET中兴</a> <a href="/tags/Motorola摩托罗拉手机/" style="font-size: 15px;">Motorola摩托罗拉手机</a> <a href="/tags/huawei华为手机/" style="font-size: 15px;">huawei华为手机</a> <a href="/tags/oneplus-一加手机/" style="font-size: 15px;">oneplus 一加手机</a> <a href="/tags/google谷歌手机/" style="font-size: 15px;">google谷歌手机</a> <a href="/tags/hexo-博客-网站-教程/" style="font-size: 15px;">hexo,博客,网站,教程</a> <a href="/tags/asus华硕-安卓/" style="font-size: 15px;">asus华硕,安卓</a> <a href="/tags/xiaomi小米/" style="font-size: 15px;">xiaomi小米,</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Zuk联想手机/">Zuk联想手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/ZET中兴手机/">ZET中兴手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Sony索尼手机/">Sony索尼手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Samsung三星手机/">Samsung三星手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/OPPO手机/">OPPO手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/oneplus 一加手机/">oneplus 一加手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Motorola摩托罗拉手机/">Motorola摩托罗拉手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/LG手机/">LG手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/huawei华为手机/">huawei华为手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/HTC手机/">HTC手机</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://twrp.me/Devices/" title="Twrp" target="_blank">Twrp</a><ul></ul><a href="https://download.lineageos.org/" title="lineageos" target="_blank">lineageos</a><ul></ul><a href="http://www.resurrectionremix.com/" title="resurrectionremix" target="_blank">resurrectionremix</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">Hexo.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
+</div><div class="tags"><a href="/tags/hexo-博客-网站-教程/">hexo,博客,网站,教程</a></div><div class="post-nav"><a class="pre" href="/2018/02/05/小米手机 TWRP/">xiaomi小米手机</a><a class="next" href="/2018/02/03/使用github搭建hexo博客的详细过程 /">使用github搭建hexo博客的详细过程</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://yoursite.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Zuk联想/" style="font-size: 15px;">Zuk联想</a> <a href="/tags/LG手机/" style="font-size: 15px;">LG手机</a> <a href="/tags/OPPO/" style="font-size: 15px;">OPPO</a> <a href="/tags/Sony索尼/" style="font-size: 15px;">Sony索尼</a> <a href="/tags/HTC手机/" style="font-size: 15px;">HTC手机</a> <a href="/tags/Samsung三星/" style="font-size: 15px;">Samsung三星</a> <a href="/tags/ZET中兴/" style="font-size: 15px;">ZET中兴</a> <a href="/tags/Motorola摩托罗拉手机/" style="font-size: 15px;">Motorola摩托罗拉手机</a> <a href="/tags/huawei华为手机/" style="font-size: 15px;">huawei华为手机</a> <a href="/tags/oneplus-一加手机/" style="font-size: 15px;">oneplus 一加手机</a> <a href="/tags/google谷歌手机/" style="font-size: 15px;">google谷歌手机</a> <a href="/tags/hexo-博客-网站-教程/" style="font-size: 15px;">hexo,博客,网站,教程</a> <a href="/tags/asus华硕-安卓/" style="font-size: 15px;">asus华硕,安卓</a> <a href="/tags/xiaomi小米/" style="font-size: 15px;">xiaomi小米,</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Zuk联想手机/">Zuk联想手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/ZET中兴手机/">ZET中兴手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Sony索尼手机/">Sony索尼手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Samsung三星手机/">Samsung三星手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/OPPO手机/">OPPO手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/oneplus 一加手机/">oneplus 一加手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/Motorola摩托罗拉手机/">Motorola摩托罗拉手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/LG手机/">LG手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/huawei华为手机/">huawei华为手机</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/05/HTC手机/">HTC手机</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://twrp.me/Devices/" title="Twrp" target="_blank">Twrp</a><ul></ul><a href="https://download.lineageos.org/" title="lineageos" target="_blank">lineageos</a><ul></ul><a href="http://www.resurrectionremix.com/" title="resurrectionremix" target="_blank">resurrectionremix</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">Hexo.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
